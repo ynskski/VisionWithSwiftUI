@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct FaceDetectionView: View {
+    @ObservedObject private var faceDetectionViewModel = FaceDetectionViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            if faceDetectionViewModel.image == nil {
+                CALayerView(caLayer: faceDetectionViewModel.previewLayer)
+                    .edgesIgnoringSafeArea(.all)
+            }
+        }
     }
 }
 

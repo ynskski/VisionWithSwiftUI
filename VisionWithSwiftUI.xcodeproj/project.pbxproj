@@ -11,6 +11,8 @@
 		020ABEC32549369B00FD1863 /* FaceDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020ABEC22549369B00FD1863 /* FaceDetectionView.swift */; };
 		020ABEC52549369D00FD1863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020ABEC42549369D00FD1863 /* Assets.xcassets */; };
 		020ABEC82549369D00FD1863 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020ABEC72549369D00FD1863 /* Preview Assets.xcassets */; };
+		020ABED22549379600FD1863 /* CALayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020ABED12549379600FD1863 /* CALayerView.swift */; };
+		020ABED525493AB000FD1863 /* FaceDetectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020ABED425493AB000FD1863 /* FaceDetectionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		020ABEC42549369D00FD1863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		020ABEC72549369D00FD1863 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		020ABEC92549369D00FD1863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020ABED12549379600FD1863 /* CALayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerView.swift; sourceTree = "<group>"; };
+		020ABED425493AB000FD1863 /* FaceDetectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				020ABEC02549369B00FD1863 /* VisionWithSwiftUIApp.swift */,
+				020ABED12549379600FD1863 /* CALayerView.swift */,
 				020ABEC22549369B00FD1863 /* FaceDetectionView.swift */,
+				020ABED425493AB000FD1863 /* FaceDetectionViewModel.swift */,
 				020ABEC42549369D00FD1863 /* Assets.xcassets */,
 				020ABEC92549369D00FD1863 /* Info.plist */,
 				020ABEC62549369D00FD1863 /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				020ABEC32549369B00FD1863 /* FaceDetectionView.swift in Sources */,
+				020ABED525493AB000FD1863 /* FaceDetectionViewModel.swift in Sources */,
+				020ABED22549379600FD1863 /* CALayerView.swift in Sources */,
 				020ABEC12549369B00FD1863 /* VisionWithSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
