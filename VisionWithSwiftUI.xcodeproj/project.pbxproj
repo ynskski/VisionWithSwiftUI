@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		020ABEC12549369B00FD1863 /* VisionWithSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020ABEC02549369B00FD1863 /* VisionWithSwiftUIApp.swift */; };
-		020ABEC32549369B00FD1863 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020ABEC22549369B00FD1863 /* ContentView.swift */; };
+		020ABEC32549369B00FD1863 /* FaceDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020ABEC22549369B00FD1863 /* FaceDetectionView.swift */; };
 		020ABEC52549369D00FD1863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020ABEC42549369D00FD1863 /* Assets.xcassets */; };
 		020ABEC82549369D00FD1863 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020ABEC72549369D00FD1863 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		020ABEBD2549369B00FD1863 /* VisionWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		020ABEC02549369B00FD1863 /* VisionWithSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionWithSwiftUIApp.swift; sourceTree = "<group>"; };
-		020ABEC22549369B00FD1863 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		020ABEC22549369B00FD1863 /* FaceDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionView.swift; sourceTree = "<group>"; };
 		020ABEC42549369D00FD1863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		020ABEC72549369D00FD1863 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		020ABEC92549369D00FD1863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				020ABEC02549369B00FD1863 /* VisionWithSwiftUIApp.swift */,
-				020ABEC22549369B00FD1863 /* ContentView.swift */,
+				020ABEC22549369B00FD1863 /* FaceDetectionView.swift */,
 				020ABEC42549369D00FD1863 /* Assets.xcassets */,
 				020ABEC92549369D00FD1863 /* Info.plist */,
 				020ABEC62549369D00FD1863 /* Preview Content */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				020ABEC32549369B00FD1863 /* ContentView.swift in Sources */,
+				020ABEC32549369B00FD1863 /* FaceDetectionView.swift in Sources */,
 				020ABEC12549369B00FD1863 /* VisionWithSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
