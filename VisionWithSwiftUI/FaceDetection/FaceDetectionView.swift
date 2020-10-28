@@ -8,24 +8,24 @@
 import SwiftUI
 
 struct FaceDetectionView: View {
-    @ObservedObject private var faceDetectionViewModel = FaceDetectionViewModel()
+    @ObservedObject private var viewModel = FaceDetectionViewModel()
     
     var body: some View {
         ZStack {
-            CALayerView(caLayer: faceDetectionViewModel.previewLayer)
+            CALayerView(caLayer: viewModel.previewLayer)
                 .edgesIgnoringSafeArea(.all)
             
             VStack {
-                Text("傾き: \(faceDetectionViewModel.faceRoll), 回転: \(faceDetectionViewModel.faceYaw)")
+                Text("傾き: \(viewModel.faceRoll), 回転: \(viewModel.faceYaw)")
                 
                 Spacer()
             }
         }
         .onAppear {
-            faceDetectionViewModel.startSession()
+            viewModel.startSession()
         }
         .onDisappear {
-            faceDetectionViewModel.stopSession()
+            viewModel.stopSession()
         }
     }
 }

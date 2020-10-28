@@ -9,15 +9,25 @@ import SwiftUI
 
 struct HomeView: View {
     @State private var isFaceDetectionViewPresented = false
+    @State private var isRectangleDetectionViewPresented = false
     
     var body: some View {
         VStack {
             Button("顔検出") {
                 isFaceDetectionViewPresented.toggle()
             }
-        }
-        .sheet(isPresented: $isFaceDetectionViewPresented) {
-            FaceDetectionView()
+            .sheet(isPresented: $isFaceDetectionViewPresented) {
+                FaceDetectionView()
+            }
+            .padding()
+            
+            Button("矩形検出") {
+                isRectangleDetectionViewPresented.toggle()
+            }
+            .sheet(isPresented: $isRectangleDetectionViewPresented) {
+                RectangleDetectionView()
+            }
+            .padding()
         }
     }
 }

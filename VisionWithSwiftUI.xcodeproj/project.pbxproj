@@ -14,6 +14,8 @@
 		020ABED22549379600FD1863 /* CALayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020ABED12549379600FD1863 /* CALayerView.swift */; };
 		020ABED525493AB000FD1863 /* FaceDetectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020ABED425493AB000FD1863 /* FaceDetectionViewModel.swift */; };
 		02EA692425495EDA0048D12E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EA692325495EDA0048D12E /* HomeView.swift */; };
+		02EA692A254965250048D12E /* RectangleDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EA6929254965250048D12E /* RectangleDetectionView.swift */; };
+		02EA692D254965330048D12E /* RectangleDetectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EA692C254965330048D12E /* RectangleDetectionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		020ABED12549379600FD1863 /* CALayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerView.swift; sourceTree = "<group>"; };
 		020ABED425493AB000FD1863 /* FaceDetectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewModel.swift; sourceTree = "<group>"; };
 		02EA692325495EDA0048D12E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		02EA6929254965250048D12E /* RectangleDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleDetectionView.swift; sourceTree = "<group>"; };
+		02EA692C254965330048D12E /* RectangleDetectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleDetectionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,8 @@
 				020ABEC02549369B00FD1863 /* VisionWithSwiftUIApp.swift */,
 				02EA692325495EDA0048D12E /* HomeView.swift */,
 				020ABED12549379600FD1863 /* CALayerView.swift */,
-				020ABEC22549369B00FD1863 /* FaceDetectionView.swift */,
-				020ABED425493AB000FD1863 /* FaceDetectionViewModel.swift */,
+				02EA6927254964F00048D12E /* FaceDetection */,
+				02EA69282549650D0048D12E /* RectangleDetection */,
 				020ABEC42549369D00FD1863 /* Assets.xcassets */,
 				020ABEC92549369D00FD1863 /* Info.plist */,
 				020ABEC62549369D00FD1863 /* Preview Content */,
@@ -76,6 +80,24 @@
 				020ABEC72549369D00FD1863 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02EA6927254964F00048D12E /* FaceDetection */ = {
+			isa = PBXGroup;
+			children = (
+				020ABEC22549369B00FD1863 /* FaceDetectionView.swift */,
+				020ABED425493AB000FD1863 /* FaceDetectionViewModel.swift */,
+			);
+			path = FaceDetection;
+			sourceTree = "<group>";
+		};
+		02EA69282549650D0048D12E /* RectangleDetection */ = {
+			isa = PBXGroup;
+			children = (
+				02EA6929254965250048D12E /* RectangleDetectionView.swift */,
+				02EA692C254965330048D12E /* RectangleDetectionViewModel.swift */,
+			);
+			path = RectangleDetection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +169,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02EA692D254965330048D12E /* RectangleDetectionViewModel.swift in Sources */,
 				02EA692425495EDA0048D12E /* HomeView.swift in Sources */,
+				02EA692A254965250048D12E /* RectangleDetectionView.swift in Sources */,
 				020ABEC32549369B00FD1863 /* FaceDetectionView.swift in Sources */,
 				020ABED525493AB000FD1863 /* FaceDetectionViewModel.swift in Sources */,
 				020ABED22549379600FD1863 /* CALayerView.swift in Sources */,
