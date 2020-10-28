@@ -12,9 +12,13 @@ struct FaceDetectionView: View {
     
     var body: some View {
         ZStack {
-            if faceDetectionViewModel.image == nil {
-                CALayerView(caLayer: faceDetectionViewModel.previewLayer)
-                    .edgesIgnoringSafeArea(.all)
+            CALayerView(caLayer: faceDetectionViewModel.previewLayer)
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                Text("傾き: \(faceDetectionViewModel.faceRoll), 回転: \(faceDetectionViewModel.faceYaw)")
+                
+                Spacer()
             }
         }
     }
