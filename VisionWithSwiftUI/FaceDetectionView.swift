@@ -21,6 +21,12 @@ struct FaceDetectionView: View {
                 Spacer()
             }
         }
+        .onAppear {
+            faceDetectionViewModel.startSession()
+        }
+        .onDisappear {
+            faceDetectionViewModel.stopSession()
+        }
     }
 }
 

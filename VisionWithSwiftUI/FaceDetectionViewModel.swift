@@ -53,8 +53,18 @@ final class FaceDetectionViewModel: NSObject, ObservableObject {
         let previewLayer = AVCaptureVideoPreviewLayer(session: session)
         self.previewLayer = previewLayer
         previewLayer.videoGravity = .resizeAspectFill
-        
-        session.startRunning()
+    }
+    
+    func startSession() {
+        if !session.isRunning {
+            session.startRunning()
+        }
+    }
+    
+    func stopSession() {
+        if session.isRunning {
+            session.stopRunning()
+        }
     }
     
     private func prepareVisionRequest() {

@@ -13,6 +13,7 @@
 		020ABEC82549369D00FD1863 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020ABEC72549369D00FD1863 /* Preview Assets.xcassets */; };
 		020ABED22549379600FD1863 /* CALayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020ABED12549379600FD1863 /* CALayerView.swift */; };
 		020ABED525493AB000FD1863 /* FaceDetectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020ABED425493AB000FD1863 /* FaceDetectionViewModel.swift */; };
+		02EA692425495EDA0048D12E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EA692325495EDA0048D12E /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		020ABEC92549369D00FD1863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		020ABED12549379600FD1863 /* CALayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerView.swift; sourceTree = "<group>"; };
 		020ABED425493AB000FD1863 /* FaceDetectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewModel.swift; sourceTree = "<group>"; };
+		02EA692325495EDA0048D12E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				020ABEC02549369B00FD1863 /* VisionWithSwiftUIApp.swift */,
+				02EA692325495EDA0048D12E /* HomeView.swift */,
 				020ABED12549379600FD1863 /* CALayerView.swift */,
 				020ABEC22549369B00FD1863 /* FaceDetectionView.swift */,
 				020ABED425493AB000FD1863 /* FaceDetectionViewModel.swift */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02EA692425495EDA0048D12E /* HomeView.swift in Sources */,
 				020ABEC32549369B00FD1863 /* FaceDetectionView.swift in Sources */,
 				020ABED525493AB000FD1863 /* FaceDetectionViewModel.swift in Sources */,
 				020ABED22549379600FD1863 /* CALayerView.swift in Sources */,
