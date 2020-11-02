@@ -16,7 +16,7 @@ struct FaceDetectionView: View {
                 .edgesIgnoringSafeArea(.all)
             
             VStack {
-                Text("傾き: \(viewModel.faceRoll), 回転: \(viewModel.faceYaw)")
+                Text("傾き: \(viewModel.faceRoll), 回転: \(viewModel.faceYaw)\nクオリティ: \(viewModel.captureQuality)")
                 
                 Spacer()
             }
